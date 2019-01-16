@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+justify-content: center;
+
+}
+
+
+.App-header {
+  background-color: #66d9ff;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  font-weight: 900;
+  color: white;
+  border: solid black;
+  justify-content: center;
+}
+
+/* .ingredientsList {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+  margin-right: 20px;
+
+} */
+.list {
+margin-bottom: 5px;
+justify-content: center;
+list-style: none;
+}
+
+.recipeButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:10px;
+  width:200px;
+  height:50px;
+
+}
+
+.form {
+margin-top: 20px;
+}
+
+.recipelist {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.listRecipe{
+  flex:1
+}
+
+input {
+height: 30px;
+width: 200px;
+}
